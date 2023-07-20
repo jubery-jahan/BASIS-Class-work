@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;}
+
+[class*='col']
+{
+    float: left;
+    border: 1px solid darkslategray;
+}
+
+.container{
+    width: 90% ;
+    height: auto;
+    margin: 0 auto;
+}
+
+.row:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.row{
+    position: relative;
+}
+
+
+.container{
+    width: 93%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.bg{background-color: darkseagreen}
+.bg{background-color: coral}
+
+
+.h-50{height: 50px}
+.h-200{height: 200px}
+.h-250{height: 250px}
+.h-600{height: 600px}
+
+
+.w-100{width: 100%;}
+.h-100{height: 100%}
+
+
+.col1 {width: 8.33%}
+.col2 {width: 16.66%}
+.col3 {width: 25%}
+.col4 {width: 33.33%}
+.col5 {width: 41.66%}
+.col6 {width: 50%}
+.col7 {width: 58.33%}
+.col8 {width: 66.66%}
+.col9 {width: 75%}
+.col10 {width: 83.33%}
+.col11 {width: 91.66%}
+.col12 {width: 100%}
+
+
+@media screen and (max-width: 650px)
+{
+    [class*='col']
+    {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 700px){
+    .test
+    {
+        background-color: brown;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 900px){
+    .test
+    {
+        background-color: red;
+    }
+}
+
+@media screen and (min-width: 901px){
+    .test
+    {
+        background-color: black;
+    }
+}
+
+
+@media screen and (min-width: 651px) and (max-width: 950px)
+{
+    .colm1 {width: 8.33%}
+    .colm2 {width: 16.66%}
+    .colm3 {width: 25%}
+    .colm4 {width: 33.33%}
+    .colm5 {width: 41.66%}
+    .colm6 {width: 50%}
+    .colm7 {width: 58.33%}
+    .colm8 {width: 66.66%}
+    .colm9 {width: 75%}
+    .colm10 {width: 83.33%}
+    .colm11 {width: 91.66%}
+    .colm12 {width: 100%}
+
+    .add-position{
+        position: absolute;
+        top:0;
+        right: 0;
+    }
+}
+
