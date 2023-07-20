@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+.text{
+    font-size: 20px;
+    font-family: 'LobsterTwo-Regular';
+    letter-spacing: 3px;
+    line-height: 30px;
+    word-spacing: 10px;
+    text-align: justify;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'LobsterTwo-Regular';
+    src: url("../fonts/LobsterTwo-Regular.ttf");
+}
+
+.h1{
+    float: left;
+    margin-left: 50px;
+    text-shadow: 5px 5px 5px rebeccapurple;
+    font-size: 70px;
+
+}
+
+.div-one
+{
+    height: 300px;
+    width: 300px;
+    background-color: mediumpurple;
+    float: left;
+    transform: scale(1);
+    margin: 100px;
+    transition: 1s;
+    background-image: url("../img/hh.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.div-one:hover
+{
+    transform: scale(1.5);
+}
+
+.container
+{
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 50px;
+    border: 1px solid grey;
+}
+
+.div-two
+{
+    height: 300px;
+    width: 200px;
+    background-color: mediumpurple;
+    float: left;
+    transform: skewY(30deg);
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+    transition: 1s;
+    background-image: url("../img/hh.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.div-three
+{
+    height: 300px;
+    width: 200px;
+    background-color: mediumpurple;
+    float: left;
+    transform: skewY(-30deg);
+    margin-top: 40px;
+    transition: 1s;
+    background-image: url("../img/hh.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.div-four{
+    height: 300px;
+    width: 400px;
+    background: radial-gradient( brown,orangered,yellow);
+    float: left;
+
+}
+
+.div-five{
+    height: 300px;
+    width: 400px;
+    background-color: darkolivegreen;
+    float: left;
+    box-shadow:20px 20px 20px palevioletred;
+}
